@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	
+	<link href="style/style.css" type="text/css" rel="stylesheet" /> 
+	
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/out.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/obf.js"></script>
+	<script type="text/javascript" src="js/iscroll.js"></script>
+
+				
+	
+	<title>I Ching</title>
+	
+</head>
+
+
+	
+<body>
+
+
+
+<div id="main" >
+
+<div id="container">
+
+<img src="img/topmsg.png"/>
+<img src="img/remaining.png" id="remaining" />
+<p id="turn" >6</p>
+
+
+<div class="clr"></div>
+
+<div id="coins" >
+	<img src="img/noside.png" id="coin0" class="coin"/>
+	<img src="img/noside.png"  id="coin1" class="coin"/>
+	<img src="img/noside.png" id="coin2" class="coin"/>
+</div>
+
+<div class="clr"></div>
+
+<div id="info">
+
+	<ol class="lines">
+	<li><img id="left5" class="imgline" src="img/empty.png"/></li>
+	<li><img id="left4" class="imgline" src="img/empty.png"/></li>
+	<li><img id="left3" class="imgline" src="img/empty.png"/></li>
+	<li><img id="left2" class="imgline" src="img/empty.png"/></li>
+	<li><img id="left1" class="imgline" src="img/empty.png"/></li>
+	<li><img id="left0" class="imgline" src="img/empty.png"/></li>
+	</ol>
+
+<img src="img/changingto.png" class="changing" />
+
+	<ol class="lines">
+	<li><img id="right5" class="imgline" src="img/empty.png"/></li>
+	<li><img id="right4" class="imgline" src="img/empty.png"/></li>
+	<li><img id="right3" class="imgline" src="img/empty.png"/></li>
+	<li><img id="right2" class="imgline" src="img/empty.png"/></li>
+	<li><img id="right1" class="imgline" src="img/empty.png"/></li>
+	<li><img id="right0" class="imgline" src="img/empty.png"/></li>
+	</ol>
+
+</div>
+
+
+<div class="clr"></div>
+
+<br/>
+<br/>
+
+
+<form action="javascript:throwIt();">
+	
+	<input id="button" type="image"  src="img/throw.png" /> 
+	
+</form>
+
+
+
+</div>
+
+
+
+				<div id="float">
+
+											
+		
+		
+		
+		
+							
+																							<p id="num0" class="nums" ></p>
+																							<p id="num1" class="nums" ></p>
+																							
+																							
+																							<div class="clr"></div>
+																							
+																																
+																							<div id="hexes">
+																							
+																							<ol class="lines" id="firstlines">
+																							<li><img id="rleft5" class="imgline" src="img/empty.png"/></li>
+																							<li><img id="rleft4" class="imgline" src="img/empty.png"/></li>
+																							<li><img id="rleft3" class="imgline" src="img/empty.png"/></li>
+																							<li><img id="rleft2" class="imgline" src="img/empty.png"/></li>
+																							<li><img id="rleft1" class="imgline" src="img/empty.png"/></li>
+																							<li><img id="rleft0" class="imgline" src="img/empty.png"/></li>
+																							</ol>
+																							
+																							<img src="img/changingto.png" class="changing" id="hide0"/>
+																							
+																							<ol class="lines" id="hide1">
+																							<li><img id="rright5" class="imgline" src="img/empty.png"/></li>
+																							<li><img id="rright4" class="imgline" src="img/empty.png"/></li>
+																							<li><img id="rright3" class="imgline" src="img/empty.png"/></li>
+																							<li><img id="rright2" class="imgline" src="img/empty.png"/></li>
+																							<li><img id="rright1" class="imgline" src="img/empty.png"/></li>
+																							<li><img id="rright0" class="imgline" src="img/empty.png"/></li>
+																							</ol>
+																		
+																							</div>
+																						
+																							<div class="clr" ></div>
+		
+		
+		
+											
+																	<div id="wrapper">
+																	<div id="scroller">
+																					
+																							
+																							
+																							
+																							
+
+																								<div id="mytext">
+																							
+																									<div id="alltext" class="alltext">
+																										<p id="title" class="title"></p>
+																										<p id="line" class="line"></p>
+																										<p id="p00" class="pii"></p><p id="p01" class="pii"></p><p id="p02" class="pii"></p><p id="p03" class="pii"></p><p id="p04" class="pii"></p><p id="p05" class="pii"></p>
+																										
+																										
+																									</div>
+																									
+																									</div>
+		
+															</div>
+															</div>		
+							
+							
+		
+							<div class="clr"></div>
+					
+				
+					<img id="buttonclose"   src="img/close.png" /> 
+					<img id="buttonright"   src="img/right.png" /> 
+					
+					
+					<script type="text/javascript">
+					
+					$("#buttonclose").click(function () {
+							closeIt();
+					});
+					$("#buttonright").click(function () {
+							clickright();
+					});
+					
+					</script>
+					
+				
+				</div>
+
+</div>
+	
+</body>
+
+
+</html>
