@@ -4,35 +4,35 @@ obj={};
 obj.nodes=[];
 if(i==1){
 obj.title="1. THE KHIEN HEXAGRAM";
-obj.line="Khien (represents) what is great and originating, penetrating, advantageous, correct and firm.";
-obj.nodes[0]="1. In the first (or lowest) NINE, undivided, (we see its subject as) the dragon lying hid (in the deep). It is not the time for active doing.";
-obj.nodes[1]="2. In the second NINE, undivided, (we see its subject as) the dragon appearing in the field. It will be advantageous to meet with the great man.";
-obj.nodes[2]="3. In the third NINE, undivided, (we see its subject as) the superior man active and vigilant all the day, and in the evening still careful and apprehensive. (The position is) dangerous, but there will be no mistake.";
-obj.nodes[3]="4. In the fourth NINE, undivided, (we see its subject as the dragon looking) as if he were leaping up, but still in the deep. There will be no mistake.";
-obj.nodes[4]="5. In the fifth NINE, undivided, (we see its subject as) the dragon on the wing in the sky. It will be advantageous to meet with the great man.";
-obj.nodes[5]="6. In the sixth (or topmost) NINE, undivided, (we see its subject as) the dragon exceeding the proper limits. There will be occasion for repentance.";
-obj.nodes[6]="7. (The lines of this hexagram are all strong and undivided, as appears from) the use of the number NINE. If the host of dragons (thus) appearing were to divest themselves of their heads, there would be good fortune.";
+obj.line="Khien represents what is great and originating, penetrating, advantageous, correct and firm.";
+obj.nodes[0]="1. In the first (or lowest) NINE, undivided, we see its subject as the dragon lying hid in the deep. It is not the time for active doing.";
+obj.nodes[1]="2. In the second NINE, undivided, we see its subject as the dragon appearing in the field. It will be advantageous to meet with the great man.";
+obj.nodes[2]="3. In the third NINE, undivided, we see its subject as the superior man active and vigilant all the day, and in the evening still careful and apprehensive. The position is dangerous, but there will be no mistake.";
+obj.nodes[3]="4. In the fourth NINE, undivided, we see its subject as the dragon looking as if he were leaping up, but still in the deep. There will be no mistake.";
+obj.nodes[4]="5. In the fifth NINE, undivided, we see its subject as the dragon on the wing in the sky. It will be advantageous to meet with the great man.";
+obj.nodes[5]="6. In the sixth (or topmost) NINE, undivided, we see its subject as the dragon exceeding the proper limits. There will be occasion for repentance.";
+obj.nodes[6]="7. The lines of this hexagram are all strong and undivided, as appears from the use of the number NINE. If the host of dragons thus appearing were to divest themselves of their heads, there would be good fortune.";
 }
 if(i==2){
 obj.title="2. THE KHWAN HEXAGRAM";
-obj.line="Khwan (represents) what is great and originating, penetrating, advantageous, correct and having the firmness of a mare. When the superior man (here intended) has to make any movement, if he take the initiative, he will go astray; if he follow, he will find his (proper) lord. The advantageousness will be seen in his getting friends in the south-west, and losing friends in the north-east. If he rest in correctness and firmness, there will be good fortune.";
-obj.nodes[0]="1. In the first SIX, divided, (we see its subject) treading on hoarfrost. The strong ice will come (by and by).";
-obj.nodes[1]="2. The second SIX, divided, (shows the attribute of) being straight, square, and great. (Its operation), without repeated efforts, will be in every respect advantageous.";
-obj.nodes[2]="3. The third SIX, divided, (shows its subject) keeping his excellence under restraint, but firmly maintaining it. If he should have occasion to engage in the king\'s service, though he will not claim the success (for himself), he will bring affairs to a good issue.";
-obj.nodes[3]="4. The fourth SIX, divided, (shows the symbol of) a sack tied up. There will be no ground for blame or for praise.";
-obj.nodes[4]="5. The fifth SIX, divided, (shows) the yellow lower garment. There will be great good fortune.";
-obj.nodes[5]="6. The sixth SIX, divided (shows) dragons fighting in the wild. Their blood is purple and yellow.";
+obj.line="Khwan represents what is great and originating, penetrating, advantageous, correct and having the firmness of a mare. When the superior man here intended has to make any movement, if he take the initiative, he will go astray; if he follow, he will find his (proper) lord. The advantageousness will be seen in his getting friends in the south-west, and losing friends in the north-east. If he rest in correctness and firmness, there will be good fortune.";
+obj.nodes[0]="1. In the first SIX, divided, we see its subject treading on hoarfrost. The strong ice will come (by and by).";
+obj.nodes[1]="2. The second SIX, divided, shows the attribute of being straight, square, and great. Its operation, without repeated efforts, will be in every respect advantageous.";
+obj.nodes[2]="3. The third SIX, divided, shows its subject keeping his excellence under restraint, but firmly maintaining it. If he should have occasion to engage in the king\'s service, though he will not claim the success (for himself), he will bring affairs to a good issue.";
+obj.nodes[3]="4. The fourth SIX, divided, shows the symbol of a sack tied up. There will be no ground for blame or for praise.";
+obj.nodes[4]="5. The fifth SIX, divided, shows the yellow lower garment. There will be great good fortune.";
+obj.nodes[5]="6. The sixth SIX, divided shows dragons fighting in the wild. Their blood is purple and yellow.";
 obj.nodes[6]="7. (The lines of this hexagram are all weak and divided, as appears from) the use of the number six. If those (who are thus represented) be perpetually correct and firm, advantage will arise.";
 }
 if(i==3){
 obj.title="3. THE KUN HEXAGRAM";
-obj.line="Kun (indicates that in the case which it presupposes) there will be great progress and success, and the advantage will come from being correct and firm. (But) any movement in advance should not be (lightly) undertaken. There will be advantage in appointing feudal princes.";
-obj.nodes[0]="1. The first NINE, undivided, shows the difficulty (its subject has) in advancing. It will be advantageous for him to abide correct and firm; advantageous (also) to be made a feudal ruler.";
-obj.nodes[1]="2. The second SIX, divided, shows (its subject) distressed and obliged to return; (even) the horses of her chariot (also) seem to be retreating. (But) not by a spoiler (is she assailed), but by one who seeks her to be his wife. The young lady maintains her firm correctness, and declines a union. After ten years she will be united, and have children.";
-obj.nodes[2]="3. The third SIX, divided, shows one following the deer without (the guidance of) the forester, and only finding himself in the midst of the forest. The superior man, acquainted with the secret risks, thinks it better to give up the chase. If he went forward, he would regret it.";
-obj.nodes[3]="4. The fourth SIX, divided, shows (its subject as a lady), the horses of whose chariot appear in retreat. She seeks, however, (the help of) him who seeks her to be his wife. Advance will be fortunate; all will turn out advantageously.";
-obj.nodes[4]="5. The fifth NINE, undivided, shows the difficulties in the way of (its subject\'s) dispensing the rich favours that might be expected from him. With firmness and correctness there will be good fortune in small things; (even) with them in great things there will be evil.";
-obj.nodes[5]="6. The topmost SIX, divided, shows (its subject) with the horses of his chariot obliged to retreat, and weeping tears of blood in streams.";
+obj.line="Kun (indicates that in the case which it presupposes) there will be great progress and success, and the advantage will come from being correct and firm. But any movement in advance should not be (lightly) undertaken. There will be advantage in appointing feudal princes.";
+obj.nodes[0]="1. The first NINE, undivided, shows the difficulty its subject has in advancing. It will be advantageous for him to abide correct and firm; advantageous also to be made a feudal ruler.";
+obj.nodes[1]="2. The second SIX, divided, shows its subject distressed and obliged to return; even the horses of her chariot also seem to be retreating. But not by a spoiler is she assailed, but by one who seeks her to be his wife. The young lady maintains her firm correctness, and declines a union. After ten years she will be united, and have children.";
+obj.nodes[2]="3. The third SIX, divided, shows one following the deer without the guidance of the forester, and only finding himself in the midst of the forest. The superior man, acquainted with the secret risks, thinks it better to give up the chase. If he went forward, he would regret it.";
+obj.nodes[3]="4. The fourth SIX, divided, shows its subject as a lady, the horses of whose chariot appear in retreat. She seeks, however, the help of him who seeks her to be his wife. Advance will be fortunate; all will turn out advantageously.";
+obj.nodes[4]="5. The fifth NINE, undivided, shows the difficulties in the way of its subject\'s dispensing the rich favours that might be expected from him. With firmness and correctness there will be good fortune in small things; (even) with them in great things there will be evil.";
+obj.nodes[5]="6. The topmost SIX, divided, shows its subject with the horses of his chariot obliged to retreat, and weeping tears of blood in streams.";
 }
 if(i==4){
 obj.title="4. THE MANG HEXAGRAM";
@@ -52,7 +52,7 @@ obj.nodes[1]="2. The second NINE, undivided, shows its subject waiting on the sa
 obj.nodes[2]="3. The third NINE, undivided, shows its subject in the mud (close by the stream). He thereby invites the approach of injury.";
 obj.nodes[3]="4. The fourth SIX, divided, shows its subject waiting in (the place of) blood. But he will get out of the cavern.";
 obj.nodes[4]="5. The fifth NINE, undivided, shows its subject waiting amidst the appliances of a feast. Through his firmness and correctness there will be good fortune.";
-obj.nodes[5]="6. The topmost SIX, divided, shows its subject entered into the cavern. (But) there are three guests coming, without being urged, (to his help). If he receive them respectfully, there will be good fortune in the end.";
+obj.nodes[5]="6. The topmost SIX, divided, shows its subject entered into the cavern. But there are three guests coming, without being urged, (to his help). If he receive them respectfully, there will be good fortune in the end.";
 }
 if(i==6){
 obj.title="6. THE SUNG HEXAGRAM";
@@ -129,7 +129,7 @@ obj.title="13. THE THUNG ZAN HEXAGRAM";
 obj.line="Thung Zan (or \'Union of men\') appears here (as we find it) in the (remote districts of the) country, indicating progress and success. It will be advantageous to cross the great stream. It will be advantageous to maintain the firm correctness of the superior man.";
 obj.nodes[0]="1. The first NINE, undivided, (shows the representative of) the union of men just issuing from his gate. There will be no error.";
 obj.nodes[1]="2. The second SIX, divided, (shows the representative of) the union of men in relation with his kindred. There will be occasion for regret.";
-obj.nodes[2]="3. The third NINE, undivided, (shows its subject) with his arms hidden in the thick grass, and at the top of a high mound. (But) for three years he makes no demonstration.";
+obj.nodes[2]="3. The third NINE, undivided, (shows its subject) with his arms hidden in the thick grass, and at the top of a high mound. But for three years he makes no demonstration.";
 obj.nodes[3]="4. The fourth NINE, undivided, (shows its subject) mounted on the city wall; but he does not proceed to make the attack (he contemplates). There will be good fortune.";
 obj.nodes[4]="5. In the fifth NINE, undivided, (the representative of) the union of men first wails and cries out, and then laughs. His great host conquers, and he (and the subject of the second line) meet together.";
 obj.nodes[5]="6. The topmost NINE, undivided, (shows the representative of) the union of men in the suburbs. There will be no occasion for repentance.";
@@ -341,7 +341,7 @@ obj.nodes[0]="1. The first NINE, undivided, shows its subject manifesting his st
 obj.nodes[1]="2. The second NINE, undivided, shows that with firm correctness there will be good fortune.";
 obj.nodes[2]="3. The third NINE, undivided, shows, in the case of a small man, one using all his strength; and in the case of a superior man, one whose rule is not to do so. Even with firm correctness the position would be perilous. (The exercise of strength in it might be compared to the case of) a ram butting against a fence, and getting his horns entangled.";
 obj.nodes[3]="4. The fourth NINE, undivided, shows (a case in which) firm correctness leads to good fortune, and occasion for repentance disappears. (We see) the fence opened without the horns being entangled. The strength is like that in the wheel-spokes of a large waggon.";
-obj.nodes[4]="5. The fifth SIX, divided, shows one who loses his ram(-like strength) in the ease of his position. (But) there will be no occasion for repentance.";
+obj.nodes[4]="5. The fifth SIX, divided, shows one who loses his ram(-like strength) in the ease of his position. But there will be no occasion for repentance.";
 obj.nodes[5]="6. The sixth SIX, divided, shows (one who may be compared to) the ram butting against the fence, and unable either to retreat, or to advance as he would fain do. There will not be advantage in any respect; but if he realise the difficulty (of his position), there will be good fortune.";
 }
 if(i==35){
@@ -351,7 +351,7 @@ obj.nodes[0]="1. The first SIX, divided, shows one wishing to advance, and (at t
 obj.nodes[1]="2. The second SIX, divided, shows its subject with the appearance of advancing, and yet of being sorrowful. If he be firm and correct, there will be good fortune. He will receive this great blessing from his grandmother.";
 obj.nodes[2]="3. The third SIX, divided, shows its subject trusted by all (around him). All occasion for repentance will disappear.";
 obj.nodes[3]="4. The fourth NINE, undivided, shows its subject with the appearance of advancing, but like a marmot. However firm and correct he may be, the position is one of peril.";
-obj.nodes[4]="5. The fifth SIX, divided, shows how all occasion for repentance disappears (from its subject). (But) let him not concern himself about whether he shall fail or succeed. To advance will be fortunate, and in every way advantageous.";
+obj.nodes[4]="5. The fifth SIX, divided, shows how all occasion for repentance disappears (from its subject). But let him not concern himself about whether he shall fail or succeed. To advance will be fortunate, and in every way advantageous.";
 obj.nodes[5]="6. The topmost NINE, undivided, shows one advancing his horns. But he only uses them to punish the (rebellious people of his own) city. The position is perilous, but there will be good fortune. (Yet) however firm and correct he may be, there will be occasion for regret.";
 }
 if(i==36){
@@ -360,7 +360,7 @@ obj.line="Ming \u00CE indicates that (in the circumstances which it denotes) it 
 obj.nodes[0]="1. The first NINE, undivided, shows its subject, (in the condition indicated by) Ming \u00CE, flying, but with drooping wings. When the superior man (is revolving) his going away, he may be for three days without eating. Wherever he goes, the people there may speak (derisively of him).";
 obj.nodes[1]="2. The second SIX, divided, shows its subject, (in the condition indicated by) Ming \u00CE, wounded in the left thigh. He saves himself by the strength of a (swift) horse; and is fortunate.";
 obj.nodes[2]="3. The third NINE, undivided, shows its subject, (in the condition indicated by) Ming \u00CE, hunting in the south, and taking the great chief (of the darkness). He should not be eager to make (all) correct (at once).";
-obj.nodes[3]="4. The fourth six, divided, shows its subject (just) entered into the left side of the belly (of the dark land). (But) he is able to carry out the mind appropriate (in the condition indicated by) Ming \u00CE, quitting the gate and courtyard (of the lord of darkness).";
+obj.nodes[3]="4. The fourth six, divided, shows its subject (just) entered into the left side of the belly (of the dark land). But he is able to carry out the mind appropriate (in the condition indicated by) Ming \u00CE, quitting the gate and courtyard (of the lord of darkness).";
 obj.nodes[4]="5. The fifth six, divided, shows how the count of K\u00EE fulfilled the condition indicated by Ming \u00CE. It will be advantageous to be firm and correct.";
 obj.nodes[5]="6. The sixth six, divided, shows the case where there is no light, but (only) obscurity. (Its subject) had at first ascended to (the top of) the sky; his future shall be to go into the earth.";
 }
@@ -369,7 +369,7 @@ obj.title="37. THE KI\u00C2 ZAN HEXAGRAM";
 obj.line="For (the realisation of what is taught in) Ki\u00E2 Zan, (or for the regulation of the family), what is most advantageous is that the wife be firm and correct.";
 obj.nodes[0]="1. The first NINE, undivided, shows its subject establishing restrictive regulations in his household Occasion for repentance will disappear.";
 obj.nodes[1]="2. The second SIX, divided, shows its subject taking nothing on herself, but in her central place attending to the preparation of the food. Through her firm correctness there will be good fortune.";
-obj.nodes[2]="3. The third NINE, undivided, shows its subject (treating) the members of the household with stern severity. There will be occasion for repentance, there will be peril, (but) there will (also) be good fortune. If the wife and children were to be smirking and chattering, in the end there would be occasion for regret.";
+obj.nodes[2]="3. The third NINE, undivided, shows its subject (treating) the members of the household with stern severity. There will be occasion for repentance, there will be peril, But there will (also) be good fortune. If the wife and children were to be smirking and chattering, in the end there would be occasion for regret.";
 obj.nodes[3]="4. The fourth SIX, divided, shows its subject enriching the family. There will be great good fortune.";
 obj.nodes[4]="5. The fifth NINE, undivided, shows the influence of the king extending to his family. There need be no anxiety; there will be good fortune.";
 obj.nodes[5]="6. The topmost NINE, undivided, shows its subject possessed of sincerity and arrayed in majesty. In the end there will be good fortune.";
@@ -380,7 +380,7 @@ obj.line="Khwei indicates that, (notwithstanding the condition of things which i
 obj.nodes[0]="1. The first NINE, undivided, shows that (to its subject) occasion for repentance will disappear. He has lost his horses, but let him not seek for them;--they will return of themselves. Should he meet with bad men, he will not err (in communicating with them).";
 obj.nodes[1]="2. The second NINE, undivided, shows its subject happening to meet with his lord in a bye-passage. There will be no error.";
 obj.nodes[2]="3. In the third SIX, divided, we see one whose carriage is dragged back, while the oxen in it are pushed back, and he is himself subjected to the shaving of his head and the cutting off of his nose. There is no good beginning, but there will be a good end.";
-obj.nodes[3]="4. The fourth NINE, undivided, shows its subject solitary amidst the (prevailing) disunion. (But) he meets with the good man (represented by the first line), and they blend their sincere desires together. The position is one of peril, but there will be no mistake.";
+obj.nodes[3]="4. The fourth NINE, undivided, shows its subject solitary amidst the (prevailing) disunion. But he meets with the good man (represented by the first line), and they blend their sincere desires together. The position is one of peril, but there will be no mistake.";
 obj.nodes[4]="5. The fifth SIX, divided, shows that (to its subject) occasion for repentance will disappear. With his relative (and minister he unites closely and readily) as if he were biting through a piece of skin. When he goes forward (with this help), what error can there be?";
 obj.nodes[5]="6. The topmost NINE, undivided, shows its subject solitary amidst the (prevailing) disunion. (In the subject of the third line, he seems to) see a pig bearing on its back a load of mud, (or fancies) there is a carriage full of ghosts. He first bends his bow against him, and afterwards unbends it, (for he discovers) that he is not an assailant to injure, but a near relative. Going forward, he shall meet with (genial) rain, and there will be good fortune.";
 }
@@ -419,7 +419,7 @@ obj.title="42. THE KW\u00C2I HEXAGRAM";
 obj.line="Kw\u00E2i requires (in him who would fulfil its meaning) the exhibition (of the culprit\'s guilt) in the royal court, and a sincere and earnest appeal (for sympathy and support), with a consciousness of the peril (involved in cutting off the criminal). He should (also) make announcement in his own city, and show that it will not be well to have recourse at once to arms. (In this way) there will be advantage in whatever he shall go forward to.";
 obj.nodes[0]="1. The first NINE, undivided, shows its subject in (the pride of) strength advancing with his toes. He goes forward, but will not succeed. There will be ground for blame.";
 obj.nodes[1]="2. The second NINE, undivided, shows its subject full of apprehension and appealing (for sympathy and help). Late at night hostile measures may be (taken against him), but he need not be anxious about them.";
-obj.nodes[2]="3. The third NINE, undivided, shows its subject (about to advance) with strong (and determined) looks. There will be evil. (But) the superior man, bent on cutting off (the criminal), will walk alone and encounter the rain, (till he be hated by his proper associates) as if he were contaminated (by the others). (In the end) there will be no blame against him.";
+obj.nodes[2]="3. The third NINE, undivided, shows its subject (about to advance) with strong (and determined) looks. There will be evil. But the superior man, bent on cutting off (the criminal), will walk alone and encounter the rain, (till he be hated by his proper associates) as if he were contaminated (by the others). (In the end) there will be no blame against him.";
 obj.nodes[3]="4. The fourth NINE, undivided, shows one from whose buttocks the skin has been stripped, and who walks slowly and with difficulty. (If he could act) like. a sheep led (after its companions), occasion for repentance would disappear. But though he hear these words, he will not believe them.";
 obj.nodes[4]="5. The fifth NINE, undivided, shows (the small men like) a bed of purslain, which ought to be uprooted with the utmost determination. (The subject of the line having such determination), his action, in harmony with his central position, will lead to no error or blame.";
 obj.nodes[5]="6. The sixth SIX, divided, shows its subject without any (helpers) on whom to call. His end will be evil.";
@@ -427,7 +427,7 @@ obj.nodes[5]="6. The sixth SIX, divided, shows its subject without any (helpers)
 if(i==43){
 obj.title="43. THE K\u00C2U HEXAGRAM";
 obj.line="K\u00E2u shows a female who is bold and strong. It will not be good to marry (such) a female.";
-obj.nodes[0]="1. The first SIX, divided, shows how its subject should be kept (like a carriage) tied and fastened to a metal drag, in which case with firm correctness there will be good fortune. (But) if he move in any direction, evil will appear. He will be (like) a lean pig, which is sure to keep jumping about.";
+obj.nodes[0]="1. The first SIX, divided, shows how its subject should be kept (like a carriage) tied and fastened to a metal drag, in which case with firm correctness there will be good fortune. But if he move in any direction, evil will appear. He will be (like) a lean pig, which is sure to keep jumping about.";
 obj.nodes[1]="2. The second NINE, undivided, shows its subject with a wallet of fish. There will be no error. But it will not be well to let (the subject of the first line) go forward to the guests.";
 obj.nodes[2]="3. The third NINE, undivided, shows one from whose buttocks the skin has been stripped so that he walks with difficulty. The position is perilous, but there will be no great error.";
 obj.nodes[3]="4. The fourth NINE, undivided, shows its subject with his wallet, but no fish in it. This will give rise to evil.";
@@ -487,7 +487,7 @@ obj.nodes[5]="6. The sixth SIX, divided, shows the superior man producing his ch
 if(i==49){
 obj.title="49. THE TING HEXAGRAM";
 obj.line="Ting gives the intimation of great progress and success.";
-obj.nodes[0]="1. The first SIX, divided, shows the caldron overthrown and its feet turned up. (But) there will be advantage in its getting rid of what was bad in it. (Or it shows us) the concubine (whose position is improved) by means of her son. There will be no error.";
+obj.nodes[0]="1. The first SIX, divided, shows the caldron overthrown and its feet turned up. But there will be advantage in its getting rid of what was bad in it. (Or it shows us) the concubine (whose position is improved) by means of her son. There will be no error.";
 obj.nodes[1]="2. The second NINE, undivided, shows the caldron with the things (to be cooked) in it. (If its subject can say), \'My enemy dislikes me, but he cannot approach me,\' there will be good fortune.";
 obj.nodes[2]="3. The third NINE, undivided, shows the caldron with (the places of) its ears changed. The progress (of its subject) is (thus) stopped. The fat flesh of the pheasant (which is in the caldron) will not be eaten. But the (genial) rain will come, and the grounds for repentance will disappear. There will be good fortune in the end.";
 obj.nodes[3]="4. The fourth NINE, undivided, shows the caldron with its feet broken; and its contents, designed for the ruler\'s use, overturned and spilt. Its Subject will be made to blush for shame. There will be evil.";
@@ -566,7 +566,7 @@ obj.nodes[5]="6. The sixth NINE, undivided, shows the representative of penetrat
 }
 if(i==57){
 obj.title="57. THE TUI HEXAGRAM";
-obj.line="Tui intimates that (under its conditions) there will be progress and attainment. (But) it will be advantageous to be firm and correct.";
+obj.line="Tui intimates that (under its conditions) there will be progress and attainment. But it will be advantageous to be firm and correct.";
 obj.nodes[0]="1. The first NINE, undivided, shows the pleasure of (inward) harmony. There will be good fortune.";
 obj.nodes[1]="2. The second NINE, undivided, shows the pleasure arising from (inward) sincerity. There will be good fortune. Occasion for repentance will disappear.";
 obj.nodes[2]="3. The third SIX, divided, shows its subject bringing round himself whatever can give pleasure. There will be evil.";
@@ -596,7 +596,7 @@ obj.nodes[5]="6. The topmost NINE, undivided, shows its subject disposing of (wh
 }
 if(i==60){
 obj.title="60. THE KIEH HEXAGRAM";
-obj.line="Kieh intimates that (under its conditions) there will be progress and attainment. (But) if the regulations (which it prescribes) be severe and difficult, they cannot be permanent.";
+obj.line="Kieh intimates that (under its conditions) there will be progress and attainment. But if the regulations (which it prescribes) be severe and difficult, they cannot be permanent.";
 obj.nodes[0]="1. The first NINE, undivided, shows its subject not quitting the courtyard outside his door. There will be no error.";
 obj.nodes[1]="2. The second NINE, undivided, shows its subject not quitting the courtyard inside his gate. There will be evil.";
 obj.nodes[2]="3. . The third SIX, divided, shows its subject with no appearance of observing the (proper) regulations, in which case we shall see him lamenting. But there will be no one to blame (but himself).";

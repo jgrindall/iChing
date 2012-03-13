@@ -27,6 +27,7 @@ if (!Array.prototype.indexOf){
 	var $myScroll;
 	var $NUM0;
 	var $NUM1;
+	var $changing = new Array();
 	
 	function loaded() {
 				setTimeout(function () {
@@ -46,24 +47,16 @@ if (!Array.prototype.indexOf){
 	function closeIt(){
 		$("#float").css('display','none');
 		$("#container").css('display','block');
+		$('#changinginfo').empty();
 	}
-	function clickright(){
-		if($side==0){
-			$("#buttonright").attr("src","img/left.png");
-		}
-		else{
-			$("#buttonright").attr("src","img/right.png");
-		}
-		$side = 1 - $side;
-		loadText($side);
-	}
+	
 	function results(){
 		$("#button").attr("src","img/reset.png");
 		$side = 0;
 		loadBars();
 		$NUM0 = getNum($numleft);
 		$NUM1 = getNum($numright);
-		loadText(0);
+		loadText();
 		setVis();
 		setNum();
 		loadPopup();
@@ -96,41 +89,52 @@ if (!Array.prototype.indexOf){
 	function setVis(){
 		var $visstring;
 		if($vis==true){
-			$("#buttonclose").css('marginLeft','0px');
+			
 			$("#firstlines").css('marginLeft','0px');
 			$("#num0").css('marginLeft','0px');
 			$visstring = 'block';
 		}
 		else{
-			$("#buttonclose").css('marginLeft','60px');
+			
 			$("#firstlines").css('marginLeft','130px');
 			$("#num0").css('marginLeft','125px');
 			$visstring = 'none';
 		}
-		//alert($("#buttonclose").css('marginLeft'));
+		
 		$("#hide0").css('display', $visstring);
 		$("#hide1").css('display', $visstring);
 		$("#num1").css('display', $visstring);
 		$("#buttonright").css('display', $visstring);
 		
 	}
-	function loadText($i){
-		var $obj;
-		if($i==0){
-			$obj = getObj($NUM0+1);
+	function loadText(){
+		var $obj0 = getObj($NUM0+1);
+		var $obj1 = getObj($NUM1+1);
+		$("#title").text($obj0.title);
+		$("#line").text($obj0.line);
+		if($changing.length>=1){
+			$("#titleright").text($obj1.title);
+			$("#lineright").text($obj1.line);
 		}
 		else{
-			$obj = getObj($NUM1+1);
+			$("#titleright").text("");
+			$("#lineright").text("");
 		}
 		
-		$("#title").text($obj.title);
-		$("#line").text($obj.line);
-		$("#p00").text($obj.nodes[0]);
-		$("#p01").text($obj.nodes[1]);
-		$("#p02").text($obj.nodes[2]);
-		$("#p03").text($obj.nodes[3]);
-		$("#p04").text($obj.nodes[4]);
-		$("#p05").text($obj.nodes[5]);
+		for($i=0;$i<=5;$i++){
+			if($changing.indexOf($i)==-1){
+				
+			}
+			else{
+				// changing, add a paragraph.
+				// alert($i +" is changing");
+				$id = "pinfo"+$i
+				$('#changinginfo').append('<p id="'+$id+'"></p>');
+				$("#"+$id).addClass("pii");
+				$("#"+$id).text($obj0.nodes[$i]);
+			}
+		}
+		
 		
 		addScroll();
 				
@@ -169,8 +173,9 @@ if (!Array.prototype.indexOf){
 		$("#coin0").attr("src","img/noside.png");
 		$("#coin1").attr("src","img/noside.png");
 		$("#coin2").attr("src","img/noside.png");
-		$("#buttonright").attr("src","img/right.png");
 		
+		$throws   = new Array();
+		$changing = new Array();
 	}
 	function throwIt(){
 		
@@ -238,7 +243,7 @@ if (!Array.prototype.indexOf){
 	}
 	function getLeftSrc($t){
 		if($t==6){
-			return "serrated";
+			return "serratedch";
 		}
 		else if($t==7){
 			return "long";
@@ -247,7 +252,7 @@ if (!Array.prototype.indexOf){
 			return "serrated";
 		}
 		else if($t==9){
-			return $lsrc = "long";
+			return "longch";
 		}
 	}
 	function getRightSrc($t){
@@ -264,7 +269,9 @@ if (!Array.prototype.indexOf){
 			return "serrated";
 		}
 	}
-	
+	function addChangingLine(){
+		$changing[$changing.length] = $turn;
+	}
 	function setBarImg($t){
 		var $left = $("#left"+$turn);
 		var $right = $("#right"+$turn);
@@ -272,6 +279,8 @@ if (!Array.prototype.indexOf){
 		var $rsrc = getRightSrc($t);
 		if($t==6){
 			$numright += Math.pow(2,$turn);
+			// 6 changes to 7
+			addChangingLine();
 		}
 		else if($t==7){
 			$numleft += Math.pow(2,$turn);
@@ -279,6 +288,8 @@ if (!Array.prototype.indexOf){
 		}
 		else if($t==9){
 			$numleft += Math.pow(2,$turn);
+			// 9 changes to 8
+			addChangingLine();
 		}
 		if($t==9 || $t==6){
 			$vis = true;

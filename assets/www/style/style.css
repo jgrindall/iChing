@@ -30,11 +30,12 @@ p{
 	float:left;
 	width:50px;
 }
-#buttonright{
-	position:absolute;bottom:12px;left:295px;
-}
+
 #buttonclose{
-	position:absolute;bottom:12px;left:45px;
+	position:absolute;bottom:12px;left:45px;margin-left:60px;
+}
+#button{
+	margin-left:-25px;
 }
 .alltext{
 	width:400px;
