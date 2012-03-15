@@ -256,8 +256,9 @@ if (!Array.prototype.indexOf){
 		}
 	}
 	function getRightSrc($t){
+		//alert("get right for "+$t);
 		if($t==6){
-			return "long";
+			return "longch";
 		}
 		else if($t==7){
 			return "long";
@@ -266,7 +267,7 @@ if (!Array.prototype.indexOf){
 			return "serrated";
 		}
 		else if($t==9){
-			return "serrated";
+			return "serratedch";
 		}
 	}
 	function addChangingLine(){
