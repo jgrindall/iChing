@@ -2,9 +2,12 @@ package com.jgrindall.android.iching;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Display;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.webkit.WebSettings.RenderPriority;
 import android.view.WindowManager;
 import com.phonegap.*;
@@ -36,8 +39,9 @@ public class IChingActivity extends DroidGap {
         int height = display.getHeight(); 
         
         // calculate target scale (only dealing with portrait orientation)
-        double globalScale = Math.ceil( ( width / ORIG_APP_W ) * 100 );
-       
+        double globalScaleW = Math.ceil( ( width / ORIG_APP_W ) * 100 );
+        double globalScaleH = Math.ceil( ( height / ORIG_APP_H ) * 100 );
+        double globalScale = Math.min(globalScaleW, globalScaleH);
         // set some defaults on the web view
         this.appView.getSettings().setBuiltInZoomControls( false );
         this.appView.getSettings().setSupportZoom( false );
@@ -48,7 +52,25 @@ public class IChingActivity extends DroidGap {
         // set the scale
         this.appView.setInitialScale( (int)globalScale );
         
-       
-        
     }
+    
+    @Override
+	public boolean onCreateOptionsMenu(Menu m){
+		MenuItem m0 = m.add(0,Menu.FIRST,Menu.FIRST,"Help");
+		m0.setIcon(R.drawable.ic_menu_help);
+		return super.onCreateOptionsMenu(m);
+	}
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+    	if(item.getItemId()==Menu.FIRST){
+    		Intent intent = new Intent(this, HelpActivity.class);
+            startActivity(intent);
+            return true;
+    	}
+    	return true;
+    }
+    
+    
+    
 }

@@ -2,4 +2,13 @@
 <resources>
    
     <string name="app_name">IChing</string>
+     <string name="msg_help">Help</string>
+     
+     <string name="all_help">
+     
+     
+     <b>Introduction</b>\n\n\'I Ching\' means \'Book of Changes\'.\n\nIt is a collection of practical wisdom, pertaining to every conceivable situation, originating in ancient China. Consulting the I Ching is a form of divination, in which a seemingly random coin throw is interpreted to gain insight and advice into a situation in your life. There are 64 different main kinds of situations in the I Ching, each one is indicated by a hexagram.\n\n\n<b>Hexagrams</b>\n\nA hexagram is simply a symbol made up by 6 lines each of which can be broken or unbroken (yin and yang). Something is \'yin\' when it is female or dark, earthly, passive for example and \'yang\' when it is male or light, heavenly, or active.\n\nA \'random\' hexagram is obtained by throwing three coins six times while a question is held in mind.\n\n<b>Changing lines</b>\n\nThrows with all tails or all heads are considered changing lines. A changing line is a line that changes from yin to yang or the other way around. The hexagram that is formed with the changing lines being changed, is the called the \'resulting\' hexagram.\n\n<b>The text</b>\n\nThe two hexagrams that result from the coin throws (or one if there are no changing lines) are interpreted using the Book of Changes.  The advice that the book gives is cryptic and requires thought. There are many different versions/translations of the book.  My app uses an old version (which as far as I know is out of copyright), written by James Legge, in his 1899 book \'Sacred Books of the East \'\n\n\n<b>About me</b>\n\nI am NOT an expert on the I Ching, in fact I know very little about it. This app was developed by me as a favour for a friend of mine and for me (a programmer) to learn about Android development. I apologise for any mistakes or missing information.\n\nIt uses the Phonegap platform to convert a web app (html/jquery/javascript) into an Android app.\n\nFor bugs/suggestions please contact\njohn.grindall@gmail.com
+    
+    </string>
+   
 </resources>
