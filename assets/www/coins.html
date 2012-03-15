@@ -77,11 +77,9 @@
 <br/>
 
 
-<form action="javascript:throwIt();">
 	
-	<input id="button" type="image"  src="img/throw.png" /> 
+	<img id="button"   src="img/throw.png" /> 
 	
-</form>
 
 
 
@@ -166,19 +164,53 @@
 					 
 					
 					
-					<script type="text/javascript">
 					
-					$("#buttonclose").click(function () {
-							closeIt();
-					});
-					
-					
-					</script>
 					
 				
 				</div>
 
 </div>
+	
+				<script type="text/javascript">
+					
+					
+					
+						if ("ontouchstart" in document.documentElement){
+						  // It's a touch screen device.
+						  
+						  
+									  $("#buttonclose").click(function (e) {
+										e.preventDefault();
+										//closeIt();
+										});
+										
+										$("#button").click(function (e) {
+												e.preventDefault();
+												//throwIt();
+										});
+										
+										$('#buttonclose').bind('touchstart', function() {
+												closeIt();
+										});
+										$('#button').bind('touchstart', function() {
+												throwIt();
+										});
+								  
+						  
+						  
+						}
+						else{
+									   $("#buttonclose").click(function (e) {
+										closeIt();
+										});
+										
+										$("#button").click(function (e) {
+											throwIt();
+										});
+						} 
+											
+					</script>
+	
 	
 </body>
 
