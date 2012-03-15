@@ -37,7 +37,11 @@ public class IChingActivity extends DroidGap {
         Display display = ((WindowManager) getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
         int width = display.getWidth(); 
         int height = display.getHeight(); 
-        
+        if(width>height){
+        	int w = width;
+        	width = height;
+        	height = w;
+        }
         // calculate target scale (only dealing with portrait orientation)
         double globalScaleW = Math.ceil( ( width / ORIG_APP_W ) * 100 );
         double globalScaleH = Math.ceil( ( height / ORIG_APP_H ) * 100 );
